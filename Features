@@ -89,8 +89,8 @@ local function ToggleAutoTeleportEvent(s) autoTeleportEventActive=s; if s then l
 local function CreateMainWindow()
     local Window = Rayfield:CreateWindow({
         Name = "Fish It Hub - Step 43: Manual Key System", -- Ganti Nama
-        LoadingTitle = "Mengdut Hub",
-        LoadingSubtitle = "by Mengdut - Loading...",
+        LoadingTitle = "Binturong Hub",
+        LoadingSubtitle = "by Binturong - Loading...",
         Theme = "Default"
     })
 
