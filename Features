@@ -135,7 +135,7 @@ local function CreateMainWindow()
     -- Final Notification
     local notifySuccess, notifyErr = pcall(function()
         Rayfield:Notify({
-            Title = "Mengdut Hub Loaded!",
+            Title = "Binturong Hub Loaded!",
             Content = "Key system berhasil. UI utama siap digunakan.",
             Duration = 10
         })
@@ -148,13 +148,13 @@ end -- Akhir dari CreateMainWindow()
 -- MANUAL KEY SYSTEM SETUP (DIPERBAIKI)
 -- ====================
 local isAuthenticated = false
-local validKeys = {"password123"} -- Ganti dengan kunci valid Anda
+local validKeys = {"idamganteng"} -- Ganti dengan kunci valid Anda
 
 -- Buat Window untuk Key System
 local KeyWindow = Rayfield:CreateWindow({
     Name = "Fish It Hub - Key System",
-    LoadingTitle = "Mengdut Hub",
-    LoadingSubtitle = "by Mengdut - Enter Key...",
+    LoadingTitle = "Binturong Hub",
+    LoadingSubtitle = "by Binturong - Enter Key...",
     Theme = "Default"
 })
 
